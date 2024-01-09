@@ -51,5 +51,6 @@ $(function () {
     block.querySelector('.description').value = storageDescription;
   }
 
-  // TODO: Add code to display the current date in the header of the page.
+  // display the current date in the header of the page
+  $('#currentDay').text(dayjs().format('MM/DD/YYYY'));
 });
